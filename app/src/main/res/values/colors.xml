@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Kayla Hoehn -->
+
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="sage">#AEC3B0</color>
+    <color name="cream">#EFF6E0</color>
+    <color name="red">#ff4805</color>
+    <color name="dark_green">#274029</color>
+</resources>

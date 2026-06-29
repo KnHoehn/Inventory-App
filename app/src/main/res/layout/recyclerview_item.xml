@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Author: Kayla Hoehn -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/inventoryRecyclerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:background="@color/cream"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/inventoryDescription"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.widget.Button
+        android:id="@+id/decrementButton"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/circle_button"
+        android:backgroundTint="@color/sage"
+        android:padding="0dp"
+        android:text="@string/minus"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/inventoryCountText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inventoryCountText"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="1dp"
+        android:ems="3"
+        android:inputType="number"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/incrementButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.widget.Button
+        android:id="@+id/incrementButton"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="111dp"
+        android:background="@drawable/circle_button"
+        android:backgroundTint="@color/sage"
+        android:padding="0dp"
+        android:text="@string/plus"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.widget.Button
+        android:id="@+id/deleteButton"
+        android:layout_width="62dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/rectangle_button"
+        android:backgroundTint="@color/red"
+        android:text="@string/delete"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Kayla Hoehn -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sms"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".SMSPermissionActivity">
+
+
+    <TextView
+        android:id="@+id/allowText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/allow_alert"
+        android:textColor="@color/dark_green"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/PhoneText"
+        android:layout_width="175dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="@string/phone_hint"
+        android:textAlignment="center" />
+
+
+    <Button
+        android:id="@+id/AllowButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/allow"
+        android:onClick="AllowClicked"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/denyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/deny"
+        android:onClick="DenyClicked"/>
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<!-- Author: Kayla Hoehn -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.InventoryApp" parent="Theme.Material3.Light.NoActionBar">
+
+        <item name="android:windowBackground">@color/cream</item>
+        <item name="materialButtonStyle">@style/Widget.App.Button</item>
+    </style>
+
+    <style name="Theme.InventoryApp" parent="Base.Theme.InventoryApp" />
+
+</resources>

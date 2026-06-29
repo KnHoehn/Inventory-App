@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Inventory App Hoehn</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="item_description">Item Description</string>
+    <string name="inventory_count">Inventory Count</string>
+    <string name="zero">0</string>
+    <string name="plus_item">+ Item</string>
+    <string name="allow_alert">Allow Inventory Manager to send SMS messages?</string>
+    <string name="phone_hint">(123)–456–7890</string>
+    <string name="allow">Allow</string>
+    <string name="deny">Deny</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="delete">Delete</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="app_logo">Inventory Manager Logo</string>
+</resources>
