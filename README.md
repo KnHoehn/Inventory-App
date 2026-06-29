@@ -66,11 +66,11 @@ The database supports full CRUD operations, enabling real-time updates and persi
 
 **How to Run the Project**
 
-- Install Android Studio
-- Clone or download the repository
-- Open the project in Android Studio
-- Set up an Android emulator or connect a physical device
-- Build and run the application
+1. Install Android Studio
+2. Clone or download the repository
+3. Open the project in Android Studio
+4. Set up an Android emulator or connect a physical device
+5. Build and run the application
   
 Note: SMS functionality may require proper device permissions and may not function fully on all emulators.
 
